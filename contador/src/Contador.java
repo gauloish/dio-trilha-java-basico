@@ -13,7 +13,7 @@ public class Contador {
 		try {
 			contar(parametroUm, parametroDois);
 		} catch (ParametrosInvalidosException exception) {
-			exception.getMessage();
+			System.out.println("Erro: " + exception.getMessage() + "\n");
 		} finally {
             terminal.close();
         }
