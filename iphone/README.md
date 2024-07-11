@@ -1,11 +1,6 @@
-# [DIO](www.dio.me) - Trilha Java Básico
+## Modelagem e Diagramação de um Componente iPhone
 
-## Autor
-- [Gaulöis](https://github.com/gauloish)
-
-### Modelagem e Diagramação de um Componente iPhone
-
-Abaixo o diagrama do componente iphone
+Abaixo o diagrama do componente iphone.
 
 ```mermaid
 classDiagram
