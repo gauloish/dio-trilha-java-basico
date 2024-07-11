@@ -28,7 +28,7 @@ public class Mentoria extends Conteudo {
      */
     @Override
     public int calcularPontuacao() {
-        return 2 * Conteudo.PONTO;
+        return 2 * Conteudo.PONTUACAO_PADRAO;
     }
 
     /**

@@ -5,7 +5,7 @@ package conteudo;
  *
  */
 public abstract class Conteudo {
-    protected static final int PONTO = 10;
+    protected static final int PONTUACAO_PADRAO = 10;
 
     private String titulo;
     private String descricao;

@@ -5,19 +5,19 @@ package conteudo;
  *
  */
 public class Curso extends Conteudo {
-    private int carga_horaria;
+    private int cargaHoraria;
 
     /**
      * Construtor de curso
      *
      * @param titulo Titulo do curso
      * @param descricao Descricao do curso
-     * @param carga_horaria Carga horaria do curso
+     * @param cargaHoraria Carga horaria do curso
      */
-    public Curso(String titulo, String descricao, int carga_horaria) {
+    public Curso(String titulo, String descricao, int cargaHoraria) {
         super(titulo, descricao);
 
-        this.carga_horaria = carga_horaria;
+        this.cargaHoraria = cargaHoraria;
     } 
 
     /**
@@ -27,7 +27,7 @@ public class Curso extends Conteudo {
      */
     @Override
     public int calcularPontuacao() {
-        return Conteudo.PONTO * this.carga_horaria;
+        return Conteudo.PONTUACAO_PADRAO * this.cargaHoraria;
     }
 
     /**
@@ -36,7 +36,7 @@ public class Curso extends Conteudo {
      * @return Carga horaria do curso
      */
     public int getCargaHoraria() {
-        return this.carga_horaria;
+        return this.cargaHoraria;
     }
 
     /**
